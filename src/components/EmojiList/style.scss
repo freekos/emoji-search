@@ -1,0 +1,63 @@
+.List {
+    display: block;
+    width: 1200px;
+    max-width: 100%;
+    height: 100%;
+
+    margin: 80px auto;
+}
+
+.list_item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 220px;
+    max-width: 100%;
+    height: 210px;
+
+    background: white;
+    border: 2px solid rgb(226, 75, 21);
+    border-radius: 5px;
+
+    margin: 10px;
+}
+
+.symbol {
+    font-size: 50px;
+
+    margin-top: 15px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 190px;
+}
+
+.content_title {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-top: 10px;
+}
+
+.content_keyword {
+    font-size: 15px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-align: center;
+    margin-top: 10px;
+}
