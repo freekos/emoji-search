@@ -1,4 +1,4 @@
-import emojiList from "../../emojiList.json";
+import emojiList from "../emojiList.json";
 
 const emojiFilter = (content, maxResults) => {
     return emojiList.filter(emoji => {
