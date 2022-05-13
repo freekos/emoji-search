@@ -1,0 +1,31 @@
+.Recomendeds {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    max-width: 630px;
+    height: 100%;
+
+    margin: 15px auto 0;
+}
+
+.Recomended {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 200px;
+    max-width: 100%;
+    height: 30px;
+
+    background: rgb(230, 72, 15);
+    border: 1px solid rgb(177, 54, 9);
+    border-radius: 5px;
+
+    margin: 0 5px;
+
+    p {
+        font-size: 15px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
