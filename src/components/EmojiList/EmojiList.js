@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 import "./style.scss";
-import emojiFilter from "../util/emojiFilter";
+import emojiFilter from "../../util/emojiFilter";
 import EmojiItem from "./EmojiItem";
 
 const EmojiList = ({ content }) => {
